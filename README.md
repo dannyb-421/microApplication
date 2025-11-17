@@ -1,38 +1,11 @@
-# microApplication
+## microApplication
 A full-stack application to manage users, built with Node.js, Express, SQLite, and React
-Backend: Node.js and Express API with a SQLite database for storing users; GET and POST APIs and logs requests to api.log
-Frontend: React app using Material-UI (MUI) that allows adding users and viewing a scrollable table of users
 
-microApplication
-├─ backend/
-├─ frontend/
-├─ package.json
-├─ .gitignore
-└─ README.md
+## Backend
+Node.js and Express API with a SQLite database for storing users; GET and POST APIs and logs requests to api.log
 
-backend/
-├─ app.js          # defines Express app (routes + middleware)
-├─ server.js       # server startup
-├─ db.js           # SQLite database setup
-├─ test.js         # test script using Supertest
-├─ database.sqlite # sqlite database // gitignore
-├─ api.log         # auto-created when API hits occur // gitignore
-├─ package.json
-├─ package-lock.json
-├─ README.md
-└─ node_modules    # gitignore
-
-frontend/
-├── public/
-│   └── index.html
-├── src/
-│   ├── App.js      # Main App component (input + DataGrid)
-│   ├── index.js    # Entry point that renders <App />
-│   └── ...         # Any other components or utils
-├── package.json
-├── package-lock.json
-└── README.md
-
+## FrontEnd
+React app using Material-UI (MUI) that allows adding users and viewing a scrollable table of users
 
 ## Cloning repository
 git clone git@github.com:dannyb-421/microApplication.git
