@@ -17,9 +17,9 @@ npm install-all
 npm start
 
 ## When launching for first time:
-database.sqlite will be added to users local repositiory
-database.sqlite is included in gitignore
-api.log is included in gitignore
+database.sqlite will be added to users local repositiory  
+api.log will be created on first api call
+both included in gitignore
 
 ## Server available at:
 http://localhost:4000
