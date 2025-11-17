@@ -30,6 +30,14 @@ http://localhost:4000/users
 ## Frontend available at:
 http://localhost:3000
 
+## Documentation
+- Node.js: https://nodejs.org/docs/
+- Express.js: https://expressjs.com/
+- SQLite: https://www.sqlite.org/docs.html
+- React: https://reactjs.org/docs/
+- Material-UI: https://mui.com/
+- npm (Node Package Manager): https://docs.npmjs.com/
+
 
 
 
